@@ -1,0 +1,82 @@
+/* Navbar */
+.logo{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-size: 600;
+    cursor: default;
+}
+
+.logo-img img{
+    width: 6vw;
+    
+}
+
+
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: var(--main-color);
+}
+
+@media (max-width: 991px) {
+    .logo-img img{
+    width: 9vw;
+   }
+     
+}
+
+@media (max-width: 768px){
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+
+    }
+    
+    .navbar.active{
+        display: block;
+    }
+
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+    
+}
+
+    
+
+
+
+
+/* Main Contact Section */
+
+
+
+
+
+
+
+
+
+
+
+
+

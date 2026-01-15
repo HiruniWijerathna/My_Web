@@ -1,0 +1,136 @@
+/* Main container for sidebar + content */
+.resume-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* left sidebar 1/3, content 2/3 */
+    gap: 3rem;
+    height: 100vh; /* full viewport height */
+    overflow: hidden; /* overall container does not scroll */
+}
+
+/* Sidebar */
+.sidebar {
+    background: var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    height: 100%;
+    overflow-y: auto; /* scroll if sidebar content exceeds height */
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 1rem;
+}
+
+.about-img {
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center if needed */
+}
+.about-img img {
+    width: 65%;
+    height: auto;
+}
+.sidebar .heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Buttons */
+.resume-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.resume-btn {
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border: .1rem solid var(--bg-color);
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.resume-btn:hover,
+.resume-btn.active {
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+
+/* Content */
+.content {
+    background: var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 100%;
+    overflow-y: auto; /* scroll if content exceeds height */
+}
+
+.content::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 1rem;
+}
+
+/* Responsive Layout for tablets/mobile: sidebar left, content right */
+@media (max-width: 768px) {
+    .resume-container {
+        grid-template-columns: 1fr 2fr; /* still left-right */
+        height: 100vh;
+        gap: 1rem;
+    }
+
+    .sidebar {
+        width: 40%; /* smaller width for sidebar */
+    }
+
+    .content {
+        width: 60%; /* larger content area */
+    }
+
+    /* Make the container scrollable horizontally if needed */
+    .resume-container {
+        overflow-x: auto;
+        padding: 1rem;
+    }
+
+    .resume-buttons {
+        flex-direction: column;
+    }
+
+    .resume-btn {
+        font-size: 1.4rem;
+        padding: 0.8rem;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .sidebar {
+        width: 35%;
+    }
+
+    .content {
+        width: 65%;
+    }
+
+    .resume-btn {
+        font-size: 1.3rem;
+        padding: 0.7rem;
+    }
+
+    .sidebar .heading {
+        font-size: 2rem;
+    }
+}
+

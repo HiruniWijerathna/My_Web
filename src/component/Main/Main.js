@@ -4,6 +4,7 @@ import Nav from '../Nav/Nav';
 import Home from '../Home/Home';
 import Services from '../Services/Services';
 import SideBar from "../Resume/SideBar/SideBar";
+import Project from '../Portfolio/Project/Project';
 
 function Main() {
   return (
@@ -12,6 +13,7 @@ function Main() {
         <Home/>
         <Services/>
         <SideBar />
+        <Project/>
 
       
     </div>

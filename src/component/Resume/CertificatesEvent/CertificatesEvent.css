@@ -30,8 +30,8 @@
     position: relative;
     background: var(--second-bg-color);
     border-radius: .8rem;
-    padding: 5;
-    overflow: hidden;
+    padding: 0;
+    
 }
 
 .resume-detail.certificates {

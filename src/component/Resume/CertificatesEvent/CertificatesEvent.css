@@ -1,6 +1,6 @@
 
 .resume-box .heading{
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: left;
     margin: 2rem;
 }
@@ -115,7 +115,11 @@
     height: 42rem;
     grid-template-columns: repeat((auto-fit, minmax(25rem, 1fr)));
 }
-
+.resume-box .heading{
+    font-size: 3rem;
+    text-align: center;
+ 
+}
 }
 
 @media (max-width: 400px) {

@@ -5,6 +5,8 @@ import Home from '../Home/Home';
 import Services from '../Services/Services';
 import SideBar from "../Resume/SideBar/SideBar";
 import Project from '../Portfolio/Project/Project';
+import Contact from '../Contact/Contact';
+import Footer from '../footer/footer';
 
 function Main() {
   return (
@@ -14,6 +16,8 @@ function Main() {
         <Services/>
         <SideBar />
         <Project/>
+        <Contact/>
+        <Footer/>
 
       
     </div>

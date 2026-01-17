@@ -58,7 +58,7 @@ function Footer() {
           <i className="bx bxl-twitter"></i>
         </a>
         <a
-          href="https://www.tiktok.com/@hiruniwijerathna3"
+          href="https://www.tiktok.com/@hiruniwijerathna7"
           target="_blank"
           rel="noopener noreferrer"
         >

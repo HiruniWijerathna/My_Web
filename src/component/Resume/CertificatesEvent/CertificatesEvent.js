@@ -16,18 +16,18 @@ import "./CertificatesEvent.css"
 
 function CertificatesEvent() {
   const certificates = [
-    { img: c2, title: "INSL-2024", desc: "My team, DreamWeavers, First Runner-up..." },
-    { img: c1, title: "CodeSprint 8", desc: "Team DreamWeavers participated..." },
-    { img: c8, title: "INSL-2023", desc: "Team DreamWeavers participated..." },
-    { img: c3, title: "Python for Beginners", desc: "Course from University of Moratuwa" },
-    { img: c4, title: "PYHACK 2.0", desc: "Certificate of Commendation..." },
-    { img: c5, title: "Java Programming", desc: "Successfully completed Java..." },
-    { img: c6, title: "Programming Basics", desc: "Completed Programming Basics..." },
-    { img: c9, title: "Frontend Developer (React)", desc: "HackerRank Certification" },
-    { img: c10, title: "JavaScript (Basic)", desc: "HackerRank Certification" },
-    { img: c7, title: "CSS (Basic)", desc: "HackerRank Certification" },
-    { img: hackventure, title: "HackVenture", desc: "Semi-finals participation" },
-    { img: idealize, title: "IDEALIZE 2024", desc: "Prototype Phase Winner" },
+    { img: c2, title: "INSL-2024", desc: "My team, DreamWeavers, First Runner-up at the Idea Stage of IEEE Innovation Nation Sri Lanka - Sabaragamuwa Province" },
+    { img: c1, title: "CodeSprint 8", desc: "Team DreamWeavers participated in the largest inter-university startup battle organized by the IEEE Student Branch of IIT." },
+    { img: c8, title: "INSL-2023", desc: "Team DreamWeavers participated in Business Stage of IEEE Innovation Nation Sri Lanka - Sabaragamuwa Province." },
+    { img: c3, title: "Python for Beginners", desc: "course from the University of Moratuwa (CODL)" },
+    { img: c4, title: "PYHACK 2.0", desc: "Certificate of Commendation for exemplary performance" },
+    { img: c5, title: "Java Programming", desc: "Successfully completed the Java Programming course from Great Learning Academy in August 2023." },
+    { img: c6, title: "Programming Basics", desc: "Completed the Programming Basics course from Great Learning Academy in March 2024" },
+    { img: c9, title: "Frontend Developer (React)", desc: "Earned Frontend Developer (React) Certification from HackerRank, validating practical React and frontend development skills." },
+    { img: c10, title: "JavaScript (Basic)", desc: "It covers topics such as functions, currying, hoisting, scope, inheritance, events, and error handling." },
+    { img: c7, title: "CSS (Basic)", desc: "Earned CSS (Basic) Certification from HackerRank on March 20, 2025, showcasing web styling and layout skills." },
+    { img: hackventure, title: "HackVenture", desc: "We participated as Team DreamWeavers from Sabaragamuwa University, reaching the semi-finals of HackVenture." },
+    { img: idealize, title: "IDEALIZE 2024", desc: "Team DreamWeavers from Sabaragamuwa University won the Prototype Phase" },
   ];
 
   return (

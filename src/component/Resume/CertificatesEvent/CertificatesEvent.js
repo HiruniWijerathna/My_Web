@@ -36,15 +36,16 @@ function CertificatesEvent() {
       <div className="resume-list2">
         {certificates.map((cert, index) => (
           <div className="resume-item2" key={index}>
-            <img src={cert.img} alt={cert.title} />
-            <div className="porfolio-layer">
-              <h4>{cert.title}</h4>
-              <p>{cert.desc}</p>
-              <a href={cert.link} target="_blank" rel="noreferrer">
-                <i className="bx bx-link-external"></i>
-              </a>
-            </div>
-          </div>
+  <img src={cert.img} alt={cert.title} />
+  <div className="portfolio-layer">
+    <h4>{cert.title}</h4>
+    <p>{cert.desc}</p>
+    <a href={cert.link} target="_blank" rel="noreferrer">
+      <i className="bx bx-link-external"></i>
+    </a>
+  </div>
+</div>
+
         ))}
       </div>
     </div>

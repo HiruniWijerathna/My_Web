@@ -36,6 +36,9 @@
     justify-content: center;
 }
 
+.resume-detail.certificates {
+    padding: 2rem 0;
+}
 
 
 
@@ -64,7 +67,7 @@
     transform: scale(1.1);
 }
 
-.resume-item2 .porfolio-layer {
+.resume-item2 .portfolio-layer {
     position: absolute;
     top: 0;
     left: 0;
@@ -84,7 +87,7 @@
 }
 
 
-.resume-item2:hover .porfolio-layer {
+.resume-item2:hover .portfolio-layer {
     opacity: 1;
     
 }

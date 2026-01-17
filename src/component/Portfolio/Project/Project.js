@@ -9,7 +9,7 @@ function Project() {
   return (
     <section className="portfolio" id="portfolio">
       <h2 className="heading">
-        Latest <span>Project</span>
+        My <span>Project</span>
       </h2>
 
       {/* Buttons */}

@@ -1,17 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    scroll-behavior: smooth;
-    font-family:'Poppins', sans-serif;
-    
-}
-
-
 
 
 
@@ -128,9 +114,6 @@
         width: 100%;
     }
 
-    .resume-item h3 {
-        font-size: 1.6rem;
-    }
 
     .resume-item .company {
         font-size: 1.6rem;
@@ -186,7 +169,7 @@
 
     .resume-box .resume-detail h2{
     font-size: 2rem;
-}
+    }
 
     .resume-item {
         width: 100%;
@@ -240,6 +223,8 @@
         margin-top: 0.3rem;
     }
 
+ 
+    
 }
 
 

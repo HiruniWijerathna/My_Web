@@ -37,67 +37,15 @@
 }
 
 
-.resume-detail.skills .resume-list2{
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    height: auto;
-    overflow: visible;
-}
 
-.resume-detail.skills .resume-item2{
-    position: relative;
-    align-items: center;
-    height: auto;
-}
 
-.resume-detail.skills .resume-item2 i{
-    font-size: 8.5rem;
-    transition: .5s;
-}
-
-.resume-detail.skills .resume-item2:hover i{
-    color: var(--main-color);
-}
-
-.resume-detail.skills .resume-item2 span{
-    position: absolute;
-    top: -20%;
-    background: var(--text-color);
-    color: var(--bg-color);
-    font-size: 1.6rem;
-    padding: .5rem 1rem;
-    border-radius: .6rem;
-    pointer-events: none;
-    opacity: 0;
-    transform: scale(.9);
-    transition: .2s;
-}
-
-.resume-detail.skills .resume-item2:hover span{
-    top: -25%;
-    opacity: 1;
-    transform: scale(1)
-}
-
-.resume-detail.about .resume-list2{
-    height: auto;
+.resume-detail.certificates .resume-list2{
+    height: 50rem;
     grid-template-columns: repeat((auto-fit, minmax(25rem, 1fr)));
 }
 
-.resume-detail.about .resume-item2{
-    height: auto;
-    padding: 0 0 .5rem;
-    background: transparent;
-}
 
-.resume-detail.about .resume-item2 p{
-    color: var(--main-color);
-}
 
-.resume-detail.about .resume-item2 p span{
-    color: var(--text-color);
-    margin-left: 1rem;
-    font-size: 1.8rem;
-}
 
 .resume-item2 {
     position: relative;
@@ -143,7 +91,15 @@
 
 
 
+@media (max-width: 780px) {
+   
 
+ .resume-detail.certificates .resume-list2{
+    height: 42rem;
+    grid-template-columns: repeat((auto-fit, minmax(25rem, 1fr)));
+}
+
+}
 
 
 
@@ -155,7 +111,19 @@
         grid-template-columns: repeat(1, 1fr);
         
         }
- 
+ .resume-detail.certificates .resume-list2{
+    height: 42rem;
+    grid-template-columns: repeat((auto-fit, minmax(25rem, 1fr)));
+}
+
+}
+
+@media (max-width: 400px) {
+
+ .resume-detail.certificates .resume-list2{
+    height: 37rem;
+    grid-template-columns: repeat((auto-fit, minmax(25rem, 1fr)));
+}
 
 }
 

@@ -16,7 +16,7 @@ import "./CertificatesEvent.css"
 
 function CertificatesEvent() {
   const certificates = [
-    { img: c2, title: "INSL-2024", desc: "My team, DreamWeavers, First Runner-up at the Idea Stage of IEEE Innovation Nation Sri Lanka - Sabaragamuwa Province", link: c2 },
+    { img: c2, title: "iINSL-2024", desc: "My team, DreamWeavers, First Runner-up at the Idea Stage of IEEE Innovation Nation Sri Lanka - Sabaragamuwa Province", link: c2 },
     { img: c1, title: "CodeSprint 8", desc: "Team DreamWeavers participated in the largest inter-university startup battle organized by the IEEE Student Branch of IIT.", link: c1 },
     { img: c8, title: "INSL-2023", desc: "Team DreamWeavers participated in Business Stage of IEEE Innovation Nation Sri Lanka - Sabaragamuwa Province.", link: c8 },
     { img: c3, title: "Python for Beginners", desc: "course from the University of Moratuwa (CODL)", link: c3 },

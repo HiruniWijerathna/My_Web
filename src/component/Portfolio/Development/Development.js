@@ -130,10 +130,10 @@ function Development() {
         <img src={img8} alt="My Portfolio" />
         <div className="portfolio-layer">
           <h4>My Portfolio</h4>
-                <p>I design and develop responsive, interactive websites using HTML, CSS, and JavaScript. My portfolio showcases projects focused on clean design, user experience, and functionality.</p>
+                <p>A React-based personal portfolio website showcasing my projects, skills, resume, and contact information with smooth animations and responsive design.</p>
                 <div class="social-media-2">
-                    <a href="https://hiruniwijerathna.github.io/My-profile/"><i class='bx bx-link'></i></a>
-                <a href="https://github.com/HiruniWijerathna/My-profile"><i class='bx bxl-github' ></i></a>
+                    <a href="https://hiruniwijerathna.vercel.app/"><i class='bx bx-link'></i></a>
+                <a href="https://github.com/HiruniWijerathna/My_Web"><i class='bx bxl-github' ></i></a>
                 </div>
         </div>
       </div>

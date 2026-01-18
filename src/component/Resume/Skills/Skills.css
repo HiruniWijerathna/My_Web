@@ -55,7 +55,7 @@
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 18px;
   justify-items: center;
-  height: 45rem;
+
   overflow: auto;
    margin-top: 3rem;  
 

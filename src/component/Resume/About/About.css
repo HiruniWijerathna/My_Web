@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
-    height: 36rem;
+    
     overflow: auto;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .resume-detail.about .resume-list2{
-    height: 30rem;
+  
     grid-template-columns: repeat((auto-fit, minmax(25rem, 1fr)));
 }
 

@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
-  height: 50rem;
+
   overflow-y: auto;
 }
 
@@ -32,7 +32,7 @@
   border-radius: .8rem;
   padding: 1rem;
   display: flex;
-  height: calc((60rem - 2rem) / 2);
+   height: auto;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -100,13 +100,9 @@
 
 
 @media (max-width: 780px) {
-   
-
   .resume-list2{
-    height: 42rem;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-
-}
+   }
 
 }
 
@@ -116,29 +112,23 @@
 /* For extra small screens */
 @media (max-width: 480px) {
    
-     .resume-list2 {
+    .resume-list2 {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .resume-detail.certificates .resume-list2{
         
-        }
- .resume-detail.certificates .resume-list2{
-    height: 42rem;
-    grid-template-columns: repeat((auto-fit, minmax(25rem, 1fr)));
-}
-.resume-box .heading{
-    font-size: 3rem;
-    text-align: center;
- 
-}
-}
-
-@media (max-width: 400px) {
-
-  .resume-list2{
-    height: 37rem;
-    grid-template-columns: repeat((auto-fit, minmax(25rem, 1fr)));
+        grid-template-columns: repeat((auto-fit, minmax(25rem, 1fr)));
+    }
+    .resume-box .heading{
+        font-size: 3rem;
+        text-align: center;
+    
+    }
+    .resume-detail.certificates .resume-list2 .resume-item2 {
+        height:auto;
+    }
 }
 
-}
 
 
 

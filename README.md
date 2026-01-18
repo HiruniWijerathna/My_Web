@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# 💻 Personal Portfolio Website – Hiruni Wijerathna 🌟
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://hiruniwijerathna.vercel.app/5.png" alt="Portfolio Banner" width="100%" />
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
+🌍 [Visit the Live Website](https://hiruniwijerathna.vercel.app/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Project Overview
+This is a **Personal Portfolio Website** built with **React**.  
+It is a modern, responsive web application designed to showcase my skills, projects, and professional journey as a **Software Engineering student and developer**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ✅ Home Section
+- Dynamic hero section with **typed text animation**
+- Shows roles like:
+  - Web Developer
+  - Frontend Developer
+  - UI/UX Engineer
 
-### `npm run build`
+### 🧭 Navigation
+- Smooth scroll navigation
+- Component-based design
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🧰 Portfolio Section
+- Showcases **Design** and **Development** projects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📄 Resume Section
+- Education
+- Certifications
+- Events
+- About Me
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛠 Services
+- Web development
+- UI/UX design
+- Project management
 
-### `npm run eject`
+### 📩 Contact Section
+- Contact form
+- Social media links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🔗 Social Media Integration
+Links included:
+- LinkedIn
+- GitHub
+- Medium
+- Instagram
+- Twitter
+- TikTok
+- YouTube
+- Facebook
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧑‍💻 Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Technology | Purpose |
+|-----------|---------|
+| React | Frontend framework |
+| CSS | Styling & animations |
+| Typed.js | Text animation |
+| Boxicons | Icons |
+| Vercel | Deployment |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📁 Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/HiruniWijerathna/My_Web.git
+cd My_Web
+npm install
+npm start

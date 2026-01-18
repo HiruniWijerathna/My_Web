@@ -51,7 +51,7 @@ function SideBar() {
               className={`resume-btn ${activeTab === 'certificates' ? 'active' : ''}`}
               onClick={() => setActiveTab('certificates')}
             >
-              Certificates & Event
+              Achievements
             </button>
             <button
               className={`resume-btn ${activeTab === 'about' ? 'active' : ''}`}

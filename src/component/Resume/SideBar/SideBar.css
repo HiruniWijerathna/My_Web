@@ -128,7 +128,7 @@
     }
 
     .resume-btn {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         padding: 0.7rem;
     }
 
@@ -156,6 +156,7 @@
    
 }
 
+
 /* Hide only image and heading on mobile */
 @media (max-width: 480px) {
   .resume-box .about-img {
@@ -163,6 +164,31 @@
   }
 
   
+}
+
+@media (max-width: 400px){
+.resume-box .resume-detail h2 {
+    font-size: 2.5rem;
+
+}
+.about-img {
+    display: hidden;
+      /* vertical center if needed */
+}
+.about-img img {
+        display: hidden;
+   }
+.resume-btn {
+        font-size: 1.3rem;
+        padding: 0.7rem;
+    }
+     .sidebar {
+        width: 30%;
+    }
+
+    .content {
+        width: 55%;
+    }
 }
 
 /* Hide sidebar (image + Why Hire Me) on mobile */

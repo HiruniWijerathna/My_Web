@@ -183,6 +183,7 @@
     grid-template-columns: repeat(2, 1fr); /* two items per row */
     gap: 15px;
     justify-items: center;
+      height: 50rem;
     }
 
     /* Skill Item */
@@ -195,6 +196,7 @@
     width: 100%;
     max-width: 130px;
     text-align: center;
+  
     }
 
     .resume-item3:hover {

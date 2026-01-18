@@ -1,7 +1,7 @@
 # 💻 Personal Portfolio Website – Hiruni Wijerathna 🌟
 
 <p align="center">
-  <img src="https://hiruniwijerathna.vercel.app/5.png" alt="Portfolio Banner" width="100%" />
+  <img src="5.png" alt="Portfolio Banner" width="100%" />
 </p>
 
 ---

@@ -82,6 +82,9 @@
     border-radius: 1rem;
 }
 
+
+
+
 /* Responsive Layout for tablets/mobile: sidebar left, content right */
 @media (max-width: 768px) {
     .resume-container {
@@ -138,7 +141,10 @@
 @media (max-width: 480px){
 .resume-box .resume-detail h2 {
     font-size: 3rem;
+
+
 }
+
 
 .about-img {
     display: hidden;

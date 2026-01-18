@@ -90,5 +90,9 @@ section{
     html {
         font-size: 50%;
     }
+    section{
+    min-height: auto;
+    padding: 10rem 9% 2rem;
+}
 }
 

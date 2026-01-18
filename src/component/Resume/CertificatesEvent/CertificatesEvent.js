@@ -11,6 +11,8 @@ import c9 from '../../../assets/c9.jpg';
 import c10 from '../../../assets/c10.jpg';
 import hackventure from '../../../assets/e.hv.jpg';
 import idealize from '../../../assets/e2.png';
+import e1 from '../../../assets/e1.jpeg';
+import v1 from '../../../assets/v1.jpeg';
 
 import "./CertificatesEvent.css";
 
@@ -27,7 +29,11 @@ function CertificatesEvent() {
     { img: c10, title: "JavaScript (Basic)", desc: "HackerRank certification", link: "https://www.hackerrank.com/certificates/35cb6f28086c" },
     { img: c7, title: "CSS (Basic)", desc: "HackerRank certification", link: "https://www.hackerrank.com/certificates/e2789ee898fb" },
     { img: hackventure, title: "HackVenture", desc: "Semi-finalists", link: hackventure },
-    { img: idealize, title: "IDEALIZE 2024", desc: "Prototype Phase Winners", link: "https://docs.google.com/spreadsheets/d/1dA1XWekFfX3mX3xfHX390RF07c9mgWWrxXfJZYlH6a8" }
+    { img: idealize, title: "IDEALIZE 2024", desc: "Prototype Phase Winners", link: "https://docs.google.com/spreadsheets/d/1dA1XWekFfX3mX3xfHX390RF07c9mgWWrxXfJZYlH6a8" },
+    { img: e1, title: "INSL-2024", desc: "My team, DreamWeavers, First Runner-up at the Idea Stage of IEEE Innovation Nation Sri Lanka - Sabaragamuwa Province", link: e1 },
+    { img: v1, title: "Volunteering Experience", desc: "Program Team Member – AURELIA v1.0 (IEEE WIE):Volunteered in planning and coordinating an IEEE WIE event to empower women in engineering.", link: v1 }
+    
+    
   ];
 
   return (

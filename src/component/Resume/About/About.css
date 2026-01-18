@@ -129,7 +129,7 @@
 @media (max-width: 480px) {
      .resume-list2 {
         grid-template-columns: repeat(1, 1fr);
-        
+        height: 33rem;
         }
     .resume-box p{
         font-size: 1.3rem;

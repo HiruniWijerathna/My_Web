@@ -136,16 +136,6 @@
 }
 
 
-/* For extra small screens */
-@media (max-width: 400px) {
- .resume-item2 img {
-  width: 80px;
-  height: auto;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-}
 
 
 

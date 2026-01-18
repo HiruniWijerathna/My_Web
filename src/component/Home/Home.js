@@ -45,7 +45,7 @@ function Home() {
             <a href="https://www.facebook.com/profile.php?id=100057057754937" target="_blank" rel="noopener noreferrer"><i className='bx bxl-facebook'></i></a>
           </div>
 
-          <a href="/CV_Hiruni Wijerathna.pdf" download="CV_Hiruni_Wijerathna" className="btn">
+          <a href="/CV_Hiruni_Wijerathna.pdf" download="CV_Hiruni_Wijerathna" className="btn">
             Download CV
           </a>
         </div>

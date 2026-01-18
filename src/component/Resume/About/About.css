@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
-    
     overflow: auto;
 }
 
@@ -112,7 +111,13 @@
     
 }
 
+@media (max-width: 1200px) {
 
+    .resume-list2 {
+        grid-template-columns: repeat(1, 1fr);
+        height: 40rem;
+        }
+}
 
 
 /* For tablets and phones */
@@ -123,6 +128,10 @@
         margin-left: 1rem;
         font-size: 1.6rem;
     }
+    .resume-list2 {
+        grid-template-columns: repeat(1, 1fr);
+        height: 35rem;
+        }
 }
 
 /* For extra small screens */

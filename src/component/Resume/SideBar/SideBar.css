@@ -103,7 +103,7 @@
     /* Make the container scrollable horizontally if needed */
     .resume-container {
         overflow-x: auto;
-        padding: 1rem;
+        
     }
 
     .resume-buttons {

@@ -32,7 +32,7 @@ function CertificatesEvent() {
 
   return (
     <div className="resume-detail certificates active">
-      <h2 className="heading">My <span>Certificates & Events</span></h2>
+      <h2 className="heading">My <span>Achievements</span></h2>
 
       <div className="resume-list2">
         {certificates.map((cert, index) => (

@@ -4,7 +4,10 @@
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     height: auto;
     overflow: visible;
+    
 }
+
+ 
 
 .resume-detail.skills .resume-item2{
     position: relative;
@@ -127,8 +130,12 @@
   background: var(--main-color);
   color: #fff;
 }
-
-
+@media (max-width: 1200px) {
+ .resume-list3 {
+ 
+    height: 60rem;
+    }
+}
 
 
 /* For tablets and phones */
@@ -141,6 +148,7 @@
     grid-template-columns: repeat(2, 1fr); /* two items per row */
     gap: 15px;
     justify-items: center;
+    height: 50rem;
     }
 
 

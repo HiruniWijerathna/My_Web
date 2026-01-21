@@ -16,7 +16,7 @@ function About() {
 
       <div className="resume-list2">
         <div className="resume-item2"><p>⬛ Gender <span>⁝ Female</span></p></div>
-        <div className="resume-item2"><p>⬛ Age <span>⁝ 25 years Old</span></p></div>
+        <div className="resume-item2"><p>⬛ Age <span>⁝ 26 years Old</span></p></div>
         <div className="resume-item2"><p>⬛ Birth Day <span>⁝ February 6, 2000</span></p></div>
         <div className="resume-item2"><p>⬛ City <span>⁝ Malabe, Sri Lanka</span></p></div>
         <div className="resume-item2"><p>⬛ Full Time <span>⁝ Available</span></p></div>
